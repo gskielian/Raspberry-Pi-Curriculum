@@ -118,3 +118,24 @@ do
 done
 </code>
 </pre>
+
+
+<pre>
+<code class="bash">
+#!/bin/bash
+x=100
+while [ $x -gt 0 ]
+do
+  say "Liftoff in $x seconds"
+  sleep 1
+  x=$(( $x - 1 ))
+done
+
+say -v "Just Kidding!  PsyKEE!"
+
+</code>
+</pre>
+
+`chmod +x fileName`
+
+`bash filename`
