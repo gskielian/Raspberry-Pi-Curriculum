@@ -83,7 +83,7 @@ We did cover many Linux Administration topics so far:
       - prints the date to the stdout.
 
 
-Shell Loops:
+#####Shell Loops:
 
   - `while [ 1 ] ; do echo date ; sleep 1; done` 
       - example of a basic loop in the command line.
