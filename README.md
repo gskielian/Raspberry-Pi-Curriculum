@@ -28,14 +28,14 @@ League of its own: Python
 - How to install pyserial and use it for communicating to the Arduino via the Command Line Interface.
 
 CLI Utilities: 
-  - `crontab - e`
+  - `crontab -e`
      - min hour mday month wday Command
      - example:  
   - `ls`
-    - lists the files, also can do `ls - l` for more information
+    - lists the files, also can do `ls -l` for more information
   - `cd`
     -  changes your directory (aka which folder you are in).  
-        `cd ~ moves` to home folder, 
+        `cd ~` moves to home folder, 
         `cd ~/Desktop` moves to the desktop.
         `cd ..` moves back one folder
   - `pwd` 
@@ -50,18 +50,18 @@ CLI Utilities:
   - `grep` 
     - use this to search
     - I usually use this withe pipes to narrow down on the key results:
-      - `ls - l | grep .sh` will list all files that have an `.sh`   in their name
+      - `ls -l | grep .sh` will list all files that have an `.sh`   in their name
       - `ps aux | grep lovelySong.sh`  will only show the processes which have `lovelySong.sh` in their description.
       - `history | grep ssh` will look through all of your past
-  - `ssh username@ip- address`
+  - `ssh username@ipaddress`
       - this command is a crowd pleaser, and it allows you to get into another computer. You all know very well what this means.
   - `open http://www.url.com`
-      - (*Mac Only) This command will open a specified url in a mac computer.  There is a similar command `xdg- open `
+      - (*Mac Only) This command will open a specified url in a mac computer.  There is a similar command `xdg-open `
   - `open [something]`
       - It gets two lines because this command is really something.  Open literally anything on a mac with this command.
-  - `sudo shutdown - h now`
+  - `sudo shutdown -h now`
       - This will allow you to shutdown a computer via the command line.
-      - `shutdown now` is relatively universal - -  I think the windows version is very similar.
+      - `shutdown now` is relatively universal --  I think the windows version is very similar.
   - `echo "hi there"`
       - the "say" of the command line, really useful when you want your computer to talk to you
   - `read variableName`
