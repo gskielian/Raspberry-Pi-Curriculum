@@ -81,6 +81,12 @@ We did cover many Linux Administration topics so far:
   
   - `date`
       - prints the date to the stdout.
+  
+  - `wall`
+      - writes everyone at the same time, interrupts their flow. (great for stun effect! -- but doesn't actually impede their typing if they know what they are doing)
+      - e.g. `echo "hello everyone" | wall`
+  - `write [username]`
+      - this starts talking to a certain user.  It is more civil than wall.
 
 
 #####Shell Loops:
