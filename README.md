@@ -75,7 +75,8 @@ Shell Loops:
   -`while [ 1 ] ; do echo date ; sleep 1; done` 
       -example of a basic loop in the command line.
       -when scripting in a .sh file it may look like this:
-<code class=bash>
+<pre>
+<code class="bash">
 #!/bin/bash
 
 while [ 1 ]
@@ -84,5 +85,5 @@ echo date
 sleep 1 
 done
 </code>
-    
+</pre>
 
