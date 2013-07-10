@@ -81,6 +81,9 @@ We did cover many Linux Administration topics so far:
       - This will allow you to shutdown a computer via the command line.
       - `shutdown now` is relatively universal --  I think the windows version is very similar.
   
+  - `sudo shutdown -k now`
+      - This kicks other people off your computer.
+
   - `echo "hi there"`
       - the "say" of the command line, really useful when you want your computer to talk to you
   
