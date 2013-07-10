@@ -10,10 +10,10 @@ We did cover many Linux Administration topics so far:
 
 
 Command Line Editors discussed:
--Nano
-  -basic usage (WYSIWYG Editor by in large)
--Vim
-  -basic editing and saving of files
+*Nano
+  **basic usage (WYSIWYG Editor by in large)
+*Vim
+  **basic editing and saving of files
   -switching between different modes (normal mode, insert mode, visual mode)
   -Macros for recording and automating code generation and tasks.
 -Emacs* (will cover this on wednesday)
