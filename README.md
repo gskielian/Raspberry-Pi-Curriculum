@@ -79,6 +79,8 @@ Shell Loops:
 
 <pre>
 <code class="bash">
+#!/bin/bash
+
 while [ 1 ]
 do
 echo date
