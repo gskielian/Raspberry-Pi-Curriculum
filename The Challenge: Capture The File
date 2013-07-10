@@ -1,0 +1,10 @@
+I have placed 3 files in the computers on the edge of the room.
+
+Your goal is to:
+
+0. ssh into the computer, and find the directory with the folder name (will be broadcast with a wall from myself).
+
+1. grab the file and move it to your secret home folder.
+
+10. use the commands we have discussed so far and others. Tab completion is a must.
+
