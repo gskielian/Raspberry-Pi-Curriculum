@@ -53,5 +53,38 @@ CLI Utilities:
       -`ls -l | grep .sh` will list all files that have an `.sh`   in their name
       -`ps aux | grep lovelySong.sh`  will only show the processes which have `lovelySong.sh` in their description.
       -`history | grep ssh` will look through all of your past
+  -`ssh username@ip-address`
+      -this command is a crowd pleaser, and it allows you to get into another computer. You all know very well what this means.
+  -`open http://www.url.com`
+      -(*Mac Only) This command will open a specified url in a mac computer.  There is a similar command `xdg-open `
+  -`open [something]`
+      -It gets two lines because this command is really something.  Open literally anything on a mac with this command.
+  -`sudo shutdown -h now`
+      -This will allow you to shutdown a computer via the command line.
+      -`shutdown now` is relatively universal -- I think the windows version is very similar.
+  -`echo "hi there"`
+      -the "say" of the command line, really useful when you want your computer to talk to you
+  -`read variableName`
+      -this allows you to store a value in some variable name. Really useful with echo.
+  -`date`
+      -prints the date to the stdout.
 
+
+Shell Loops:
+
+  -`while [ 1 ] ; do echo date ; sleep 1; done` 
+      -example of a basic loop in the command line.
+      -when scripting in a .sh file it may look like this:
+{% highlight bash %}
+#!/bin/bash
+
+while [ 1 ]
+do
+echo date
+sleep 1 
+done
+
+{% endhighlight %}
+
+    
 
