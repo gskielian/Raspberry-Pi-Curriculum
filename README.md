@@ -9,7 +9,7 @@ Microcontrollers
 We did cover many Linux Administration topics so far:
 
 
-####Command Line Editors discussed:
+#####Command Line Editors discussed:
 - Nano
   - basic usage (WYSIWYG Editor by in large)
 - Vim
