@@ -9,7 +9,7 @@ Microcontrollers
 We did cover many Linux Administration topics so far:
 
 
-Command Line Editors discussed:
+###Command Line Editors discussed:
 - Nano
   - basic usage (WYSIWYG Editor by in large)
 - Vim
@@ -18,7 +18,7 @@ Command Line Editors discussed:
   - Macros for recording and automating code generation and tasks.
 - Emacs* (will cover this on wednesday)
 
-Shell Scripting:
+###Shell Scripting:
 - Bash
   - piping outputs
   - redirection of outputs
