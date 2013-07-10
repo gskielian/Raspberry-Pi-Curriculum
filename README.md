@@ -77,12 +77,12 @@ Shell Loops:
       - when scripting in a .sh file it may look like this:
 
 
-
-{% highlight bash %}
+<pre>
+<code class="bash">
 while [ 1 ]
 do
 echo date
 sleep 1 
 done
-{% endhighlight %}#!/bin/bash
-
+</code>
+</pre>
