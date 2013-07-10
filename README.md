@@ -30,7 +30,7 @@ We did cover many Linux Administration topics so far:
 #####CLI Utilities: 
   - `crontab -e`
      - min hour mday month wday Command
-     - example:  * * * * * http://akk.li/pics/anne.jpg
+     - example:  * * * * * open http://akk.li/pics/anne.jpg
      
   - `ls`
     - lists the files, also can do `ls -l` for more information
