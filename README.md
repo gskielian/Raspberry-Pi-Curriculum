@@ -30,7 +30,7 @@ League of its own: Python
 CLI Utilities: 
   - `crontab -e`
      - min hour mday month wday Command
-     - example:  
+     - example:  * * * * * http://akk.li/pics/anne.jpg
   - `ls`
     - lists the files, also can do `ls -l` for more information
   - `cd`
