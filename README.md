@@ -9,25 +9,25 @@ Microcontrollers
 We did cover many Linux Administration topics so far:
 
 
-#####Command Line Editors discussed:
+**Command Line Editors:**
 - Nano
   - basic usage (WYSIWYG Editor by in large)
 - Vim
   - basic editing and saving of files
   - switching between different modes (normal mode, insert mode, visual mode)
   - Macros for recording and automating code generation and tasks.
-- Emacs* (will cover this on wednesday)
+- Emacs* (will cover this on Wednesday)
 
-####Shell Scripting:
+**Shell Scripting:**
 - Bash
   - piping outputs
   - redirection of outputs
 
 
-League of its own: Python
+#####League of its own: Python
 - How to install pyserial and use it for communicating to the Arduino via the Command Line Interface.
 
-CLI Utilities: 
+#####CLI Utilities: 
   - `crontab -e`
      - min hour mday month wday Command
      - example:  * * * * * http://akk.li/pics/anne.jpg
