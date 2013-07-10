@@ -45,7 +45,10 @@ We did cover many Linux Administration topics so far:
     -  prints to stdout your current location
         `pwd`
     -  this will tell you where you are directory wise
-    
+  
+  - `rm [filename]`
+    -deletes a file
+
   - `ps aux` 
     - actually `ps` is the command, but I always use it with ps aux so it lists all the current processes.
     - use this and grep to find a process, then get the id of the process and kill it with the kill command
@@ -62,7 +65,12 @@ We did cover many Linux Administration topics so far:
       
   - `ssh username@ipaddress`
       - this command is a crowd pleaser, and it allows you to get into another computer. You all know very well what this means.
-      
+  
+  - `ifconfig`
+      - lists information about the current internet connections.  You may want to pipe the output to grep to quickly find the ip.
+
+  - `arp -a`
+      - (*mac Only) lists the ip-addesses of those on your network
   - `open http://www.url.com`
       - (*Mac Only) This command will open a specified url in a mac computer.  There is a similar command `xdg-open `
   
