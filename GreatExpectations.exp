@@ -1,0 +1,54 @@
+#!/usr/bin/expect
+ 
+ 
+set timeout 20
+ 
+;# -- command line arguments to our scripts
+set user [lindex $argv 0]
+set password [lindex $argv 1]
+set host [lindex $argv 2]
+set dasCommand [lindex $argv 3]
+ 
+;# shell prompt character
+set prompt "$ "
+ 
+;# -- main procecure 
+proc dostuff {} {
+   return
+}
+ 
+;# script start running here
+ 
+spawn /usr/bin/ssh $user@$host
+ 
+;# loops forever until we get a shell prompt
+ 
+while (1) {
+ 
+   expect {
+     ;# -- This is the prompt when you first use
+     ;# -- ssh that says "Are you sure you want to continue ..."
+ 
+     "no)? " {
+        send -- "yes\r"
+     }
+ 
+     ;# -- the prompt for password
+     "Password:" {
+         send -- "$password\r"
+     }
+ 
+     ;# -- and finally we got a shell prompt
+     "$prompt" {
+        send -- "$dasCommand\r"
+        break
+     }
+   }
+ 
+}
+ 
+;# -- exit
+expect "$prompt"
+send -- "exit\r"
+ 
+expect eof
