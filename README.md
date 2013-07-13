@@ -58,7 +58,7 @@ We did cover many Linux Administration topics so far:
     
   - `grep` 
     - use this to search
-    - I usually use this withe pipes to narrow down on the key results:
+    - I usually use this with pipes to narrow down on the key results:
       - `ls -l | grep .sh` will list all files that have an `.sh`   in their name
       - `ps aux | grep lovelySong.sh`  will only show the processes which have `lovelySong.sh` in their description.
       - `history | grep ssh` will look through all of your past lines and show any line with an "ssh" in it.
