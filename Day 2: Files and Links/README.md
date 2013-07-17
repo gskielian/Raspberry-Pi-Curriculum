@@ -1,5 +1,8 @@
 ##Day 3 Material
 
+###find the file
+
+
 
 ###wget
 
@@ -16,5 +19,10 @@ wget --quiet -O - http://www.url.com | grep -c asdf
 sleep 60
 done
 ```
+
+
+###Tropos
+
+This is a really cool website, ask me for the number we are demoing and I'll gladly let you try it out for educational purposes.
 
 
