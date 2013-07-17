@@ -8,6 +8,8 @@ One way to make your Raspberry Pi interact with the interwebs is to have it read
 all that is necessary is to check a url for the existence of some word (could be practically any website that can be bookmarked).
  
 ```
+#!/bin/bash
+
 while [ 1 ] 
 do 
 wget --quiet -O - http://www.url.com | grep -c asdf
