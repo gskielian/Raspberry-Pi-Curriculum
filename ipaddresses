@@ -1,5 +1,4 @@
 
-
-techlab@10.0.1.47 --the one on the right
-techlab@10.0.1.13 -- the one second from the front on the right
-saharia@10.0.1.8 -- 4c
+open vnc://techlab@10.0.1.47 --the one on the right
+open vnc://techlab@10.0.1.13 -- the one second from the front on the right
+open vnc://saharia@10.0.1.8 -- 4c
