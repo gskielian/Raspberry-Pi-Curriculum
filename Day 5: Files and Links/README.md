@@ -37,6 +37,10 @@ The problem with aliases is that they are particular to your shell, but if you a
 `cat /sys/class/gpio/gpio11/value`
 
 ###Practice with the Raspberry Pi GPIO Layout
+Only the following pins can actually be used as GPIO with our scripts:
+
+ 0, 1, 4, 7, 8, 9, 10, 11, 14, 15, 17, 18, 21, 22, 23, 24, 25
+
 
 ###Relays && Level Shifters
 
