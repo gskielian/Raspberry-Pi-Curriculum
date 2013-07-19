@@ -1,0 +1,25 @@
+I have placed 3 files in the computers on the edge of the room.
+
+Your goal is to:
+
+0. ssh into your aite's computer and search for the file (must be in one of 10 directories, may be hidden)
+
+1. grab the file and move it to your secret home folder.
+
+10. use the commands we have discussed so far and others. Tab completion is a must.
+
+11. To win you will either have both your file and your aite's file, or a certain number of points:
+
+
+
+
+
+
+tools used
+
+
+sudo apt-get install figlet
+
+sudo apt-get install emacs
+
+sudo apt-get install
