@@ -1,14 +1,28 @@
 Day 5
 ===========
 
+##Aliases
+Up until now, you have been using techniques which are portable between different computers: writing scripts (which are files you can email or store on a usb stick), command line utilities found on both Mac Os X and Linux os, and common editors like vim and nano. 
 
+Now we'll accelerate your speed with the use of aliases.
+
+Aliases allow you to write shortcuts for any terminal command.
+
+For example, instead of writing:
+`scp ./DeliciousCake.pastry username@ip-address:~/`
+
+I could instead make an alias and from then on have faster access:
+
+`alias capturefile="scp ./DeliciousCake.pastry username@ip-address:~/"`
+
+The problem with aliases is that they are particular to your shell, but if you are going to do that a lot (like log into some computer via ssh) then it might accelerate things.
 ##1v1 and Tournaments <i> broadcasted via vnc</i>
 
 #### Capture the File  
     - Round 1: no preparation
     - Round 2: scripts only
     - Round 3: aliases only
-    - Round 4: Free For All
+    - Round 4: scripts, aliases, cronjobs
 
 ####Rules:
 1. Games will last 13  minutes and 37 seconds each.
