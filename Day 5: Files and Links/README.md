@@ -66,7 +66,20 @@ Expect is another language which has its own way of doing things, Bash + Expect 
 ####Using wiringpi2 and Writing Python Scripts
 There are better ways than pyserial to interact with the GPIO pins.
 
+##### First we must install wiringPi
 
+Clone the project:
+
+`git clone git://git.drogon.net/wiringPi`
+
+Build wiringPI:
+
+```bash
+cd ./wiringPi
+./build
+```
+
+Get some tools to construct this WiringPi2:
 
 `sudo apt-get install python-dev`
 `sudo apt-get install python-setuptools`
