@@ -82,7 +82,10 @@ cd ./wiringPi
 Get some tools to construct this WiringPi2:
 
 `sudo apt-get install python-dev`
+
 `sudo apt-get install python-setuptools`
+
+`git clone https://github.com/Gadgetoid/WiringPi2-Python.git`
 
 Then download wiringpi2 from its github repository and enter the python shell.
 
