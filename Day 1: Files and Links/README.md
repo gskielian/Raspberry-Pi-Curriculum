@@ -21,7 +21,7 @@ First up, your Raspberry Pi thinks it is still in Britain, as such you are unabl
 3. press okay for the remaining of the options
 
 
-### Chaging the Keyboard
+### Changing the Keyboard
 
 1. Again select <strong>Internationalisation Options</strong> but not select the keyboard.
 2. Change the selection to the "Generic 104 Keyboard" option
