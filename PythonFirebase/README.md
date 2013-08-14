@@ -38,5 +38,6 @@ while 1 :
 
 
 References:
-http://ozgur.github.io/python-firebase/
-http://raspberry.io/wiki/how-to-get-python-on-your-raspberrypi/
+
+* http://ozgur.github.io/python-firebase/
+* http://raspberry.io/wiki/how-to-get-python-on-your-raspberrypi/
