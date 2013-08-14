@@ -22,3 +22,8 @@ while 1 :
         ser.write('1')
     time.sleep(1)
 ```
+
+
+
+References:
+http://ozgur.github.io/python-firebase/
