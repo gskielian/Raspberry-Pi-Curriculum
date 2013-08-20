@@ -24,10 +24,10 @@ We did cover many Linux Administration topics so far:
   - redirection of outputs
 
 
-#####League of its own: Python
+##### League of its own: Python
 - How to install pyserial and use it for communicating to the Arduino via the Command Line Interface.
 
-#####CLI Utilities: 
+##### CLI Utilities: 
   - `crontab -e`
      - min hour mday month wday Command
      - example:  * * * * * open http://akk.li/pics/anne.jpg
@@ -72,7 +72,7 @@ We did cover many Linux Administration topics so far:
   - `arp -a`
       - (*mac Only) lists the ip-addesses of those on your network
   - `open http://www.url.com`
-      - (*Mac Only) This command will open a specified url in a mac computer.  There is a similar command `xdg-open `
+      - (*Mac Only) This command will open a specified url in a mac computer.  There is a similar command `xdg-open ` in Linux.
   
   - `open [something]`
       - It gets two lines because this command is really something.  Open literally anything on a mac with this command.
@@ -100,7 +100,7 @@ We did cover many Linux Administration topics so far:
       - this starts talking to a certain user.  It is more civil than wall.
 
 
-#####Shell Loops:
+##### Shell Loops:
 
   - `while [ 1 ] ; do echo date ; sleep 1; done` 
       - example of a basic loop in the command line.
